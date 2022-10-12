@@ -1,13 +1,472 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<!-- ENCABEZADO-->
 <head>
-  <meta charset="utf-8">
-  <title>Cvangular</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Argentina Programa - Portafolio - Julio César Duhalde</title>
+
+    <!-- importación del archivo .css-->
+    <link href="assets/index.css" rel="stylesheet" type="text/css">
+
+    <!-- importación de la libreria animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+
+    <!-- importacion de los links de bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- importación de la libreria para animaciones -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body>
-  <app-root></app-root>
+
+<!-- CUERPO-->
+<body id="page-top">
+    <div id="fondo">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger font-bold text-info"><strong>ARGENTINA PROGRAMA</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponse"
+                    aria-controls="navbarResponse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- BARRA DE NAVEGACIÓN-->
+                <div class="collapse navbar-collapse" id="navbarResponse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link js-scroll-trigger lead" href="#sobremi">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger lead" href="#certificados">Certificados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger lead" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger lead" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger lead" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- BANNER ARGENTINA PROGRAMA FOTO Y PRIMEROS MENSAJES-->
+        <header class="header content">
+            <div class="header-video">
+                <img src="images/icono.jpg" class="card-img" id="photo" data-aos="fade-right">
+            </div>
+            <div class="header-overlay"></div>
+            <div class="header-content">
+                <div class="main-container">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>¿Necesitás un programador?</p>
+                    <p>¡Espero poder ayudarte!</p>
+                    <div class="typewriter-text">
+                        <p>Me llamo <strong>Julio César Duhalde</strong></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Linea de división de sección (amarilla)-->
+        <hr size="16px" color="yellow" />
+
+        <!-- Sección "Sobre Mí"-->
+        <section id="sobremi" class="py-5">
+            <div class="container">
+                <div class="col-lg-11 mx-auto" id="borde">
+                    <div style="max-width: 100%">
+                        <br />
+                        <h2 class="font-italic ml-2" id="fuenteTitulos" class="lang" key="tituloSeccion1">Sobre Mí</h2>
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/mifoto.jpg" class="card-img" id="photo" data-aos="fade-right">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-justify">
+                                    <h4 id="nombre" data-aos="fade-up" data-aos-delay="300">Julio César Duhalde</h4>
+                                    <p class="lead text-justify">Mi nombre es Julio César Duhalde, resido en la ciudad de Buenos Aires, Argentina.</p>
+                                    <p class="lead text-justify">Soy estudiante de la licenciatura en economía y me apasiona la programación.
+                                    </p>
+                                    <p class="lead text-justify">Puedo desarrollar el software que necesites.</p>
+                                    <p class="lead text-justify">Presupuestos sin cargo.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col mx-auto m-0" id="habilidades">
+                                    <h4 class="text-info ">Habilidades blandas:</h4>
+                                    <div class="container">
+                                        <ul class="list-group list-group-flush ml-2" id="items">
+
+                                            <li class="list-group-item" id="fondo">Puedo formar parte de un proyecto multinacional</li>
+
+                                            <li class="list-group-item" id="fondo">Mi objetivo es agregar valor a tu empresa</li>
+
+                                            <li class="list-group-item" id="fondo">Actualizado en las últimas tecnologías</li>
+
+                                            <li class="list-group-item" id="fondo">Disponible 24/7</li>
+
+                                            <li class="list-group-item" id="fondo">Compromiso con mi cliente</li>
+
+                                            <li class="list-group-item" id="fondo">Puedo liderar un equipo</li>
+
+                                            <li class="list-group-item" id="fondo">Español/Inglés                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-auto m-0" id="herramientas">
+                                    <h4 class="text-info ">Habilidades duras:</h4>
+                                    <div class="container">
+                                        <ul class="list-group list-group-flush ml-2" id="items">
+                                            <li class="list-group-item" id="fondo">Capacidad de realizar Sitios web completos</li>
+
+                                            <li class="list-group-item" id="fondo">Bases de datos</li>
+
+                                            <li class="list-group-item" id="fondo">Instalación de software</li>
+
+                                            <li class="list-group-item" id="fondo">Nivel experto en los lenguajes:
+                                                JavaScript, Java, Python, MySql </li>                                      
+                                            <li class="list-group-item" id="fondo">Experto en marketing, economía y negocios</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Linea de división de sección (amarilla)-->
+        <hr size="16px" color="yellow" />
+
+        <!-- Sección "Certificados"-->
+        <section id="certificados" class="py-5">
+            <div class="container">
+                <div class="col-lg-11 mx-auto" id="borde">
+                    <br />
+                    <h2 class="font-italic ml-2" id="fuenteTitulos" class="lang" key="tituloSeccion2">Certificados</h2>
+                    <br />
+                    <div class="row">
+                        <div class="container">
+                        <div class="container"> 
+                    </div>
+                            <!-- Primer Certificado-->
+                            <div class="container">
+                                <h4 class="text-info">UTN</h4>
+                                <ul id="items">
+                                    <li>Industria 4.0</li>
+                                    <a target="_blank" id="curso"
+                                        href="https://www.utn.edu.ar/es/secretaria-sceu/diplomatura">ver
+                                        certificado</a>
+                                    <li class="mt-2">Programador web</li>
+                                    <a target="_blank" id="curso"
+                                        href="https://sceu.frba.utn.edu.ar/e-learning/detalle/curso/1234/programador-web-avanzado">ver
+                                        certificado</a>
+                                </ul>
+                            </div>
+                            <!-- Segundo Certificado-->
+                            <div class="container">
+                                <h4 class="text-info">Argentina Programa</h4>
+                                <ul id="items">
+                                    <li>Yo Programo</li>
+                                    <a target="_blank" id="curso"
+                                        href="https://argentinaprograma.inti.gob.ar/">ver
+                                        certificado</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Linea de división de sección (amarilla)-->
+        <hr size="16px" color="yellow" />
+
+        <!-- Sección "Proyectos"-->
+        <section id="proyectos" class="py-5">
+            <div class="container">
+                <div class="col-lg-11 mx-auto" id="borde">
+                    <br />
+                    <h2 class="font-italic ml-2" id="fuenteTitulos" class="lang" key="tituloSeccion2">Proyectos
+                        Realizados</h2>
+                    <br />
+                    <div id="proyectos">
+                        
+                    <!-- Primer proyecto: Lista de compras-->
+                        <div id="proyecto">
+                            <div>
+                                <img src="images/proyectos/listadecompras.jpg" class="image">
+                                <h5>Lista de Compras - with ANGULAR</h5>
+                                <p class="lead text-justify">Permite administrar las compras de una empresa.</p>
+                            </div>
+                            <div class="mx-auto col-md-8">
+                                <button type="button" class="btn btn-outline-info btn-sm">
+                                    <a id="botonProyecto" href="https://www.maristasdenia.com/2022/03/15/proyecto-la-lista-de-la-compra-4o-pri/" target="_blank">
+                                        Ver
+                                    </a>
+                                </button>
+                                <button type="button" class="btn btn-outline-info btn-sm">
+                                    <a id="botonProyecto" href="https://github.com/erlynascarate/lista-de-compras"
+                                        target="_blank">
+                                        Repositorio
+                                    </a>
+                                </button>
+                            </div>
+                            <br>
+                        </div>
+
+                        
+                        <!-- Segundo proyecto: Convertidor de monedas-->
+                        <div id="proyecto">
+                            <div>
+                                <img src="images/proyectos/conversor.png" class="image">
+                                <h5>Convertidor de Monedas</h5>
+                                <p class="lead text-justify">Da el valor equivalente en distintas monedas.</p>
+                            </div>
+                            <div class="mx-auto col-md-8">
+                                <button type="button" class="btn btn-outline-info btn-sm">
+                                    <a id="botonProyecto" href="https://www.aduanaargentina.com/conversor-de-monedas/"
+                                        target="_blank">
+                                        Ver
+                                    </a>
+                                </button>
+                                <button type="button" class="btn btn-outline-info btn-sm">
+                                    <a id="botonProyecto" href="https://github.com/JAGProg/Convertidor-de-Moneda"
+                                        target="_blank">
+                                        Repositorio
+                                    </a>
+                                </button>
+                            </div>
+                            <br>
+                        </div>
+                     
+                        <!-- Tercer proyecto: Gestión de presupuesto -->
+                        <div id="proyecto">
+                            <div>
+                                <img src="images/proyectos/presupuesto.PNG" class="image">
+                                <h5>Gestión de Presupuesto</h5>
+                                <p class="lead text-justify">Permite gestionar el presupuesto de una empresa.</p>
+                            </div>
+                            <div class="mx-auto col-md-8">
+                                <button type="button" class="btn btn-outline-info btn-sm">
+                                    <a id="botonProyecto" href="https://www.appvizer.es/revista/contabilidad-finanzas/presupuestario/programa-para-hacer-presupuestos"
+                                        target="_blank">
+                                        Ver
+                                    </a>
+                                </button>
+                                <button type="button" class="btn btn-outline-info btn-sm">
+                                    <a id="botonProyecto" href="https://github.com/JGCdev/Java-MVC-Generar-Presupuestos"
+                                        target="_blank">
+                                        Repositorio
+                                    </a>
+                                </button>
+                            </div>
+                            <br>
+                        </div>                   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Linea de división de sección (amarilla)-->
+        <hr size="16px" color="yellow" />
+
+        <!-- Sección "Experiencia laboral"-->
+        <section id="experiencia" class="py-5">
+            <div class="container">
+                <div class="col-lg-11 mx-auto" id="borde">
+                    <br />
+                    <h2 class="font-italic ml-2" id="fuenteTitulos" class="lang" key="tituloSeccion3">Experiencia</h2>
+                    <br />
+                    <!-- Primera experiencia laboral-->
+                    <div class="container">
+                        <h4> Julio 2010 - Diciembre 2020</h4>
+                        <p class="lead text-justify">
+                            Desarrollador web freelance.
+                        </p>
+                        <ul id="items">
+                            <h4>
+                                <a class="text-info" href="https://www.soyfreelancer.com/trabajos-freelance/argentina" target="_blank">
+                                    Freelance
+                                </a>
+                            </h4>
+
+                        </ul>
+                    </div>
+                    <br>
+                    <!-- Segunda experiencia laboral-->
+                    <div class="container">
+                        <h4> Febrero 2021 - actualidad </h4>
+                        <p class="lead text-justify">
+                            Desarrollador web full stack en el Ministerio de Economía de la Nación.
+                        </p>
+                        <p class="lead text-justify">
+                            Desarrollo y mantengo sitios web en el ámbito del Ministerio.
+                        </p>
+                        <ul id="items">
+                            <h4>
+                                <a class="text-info" href="https://www.argentina.gob.ar/economia/psi" target="_blank">
+                                    Contratado
+                                </a>
+                            </h4>
+
+                        </ul>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Linea de división de sección (amarilla)-->
+        <hr size="16px" color="yellow" />
+        
+        <!-- Sección "Contactos (formas de contactar a la persona)"-->
+        <section id="contacto" class=" py-5">
+            <div class="container">
+                <div class="container">
+                    <h2 class="CD font-italic ml-2 text" id="fuenteTitulos" class="lang" key="tituloSeccion4">Contacto
+                    </h2>
+                    <br>
+                    <hr id="linea" />
+                    <div class="mx-auto">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 m-0">
+                            <!-- Primera forma de contacto: email-->
+                            <div class="col" id="contactRow1">
+                                <div>
+                                    <svg width="4em" height="4em" viewBox="0 0 16 16"
+                                        class="bi bi-envelope-fill mx-auto d-block" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />                                    </svg>
+                                    </svg>
+                                  </div>
+                                <div class="text-center mt-3">
+                                    <a class="text-light text-decoration-none font-italic"
+                                        href="mailto:julioduhalde@gmail.com">julioduhalde@gmail.com</a>
+                                </div>
+                            </div>
+                            <!-- Segunda forma de contacto: celular-->
+                            <div class="col" id="contactRow1">
+                                <div class="container">
+                                    <svg width="4em" height="4em" viewBox="0 0 16 16"
+                                        class="bi bi-phone-fill mx-auto d-block" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                    </svg>
+                                </div>
+                                <div class="text-center  mt-3">
+                                    <a class="text-light text-center text-decoration-none font-italic"> +54 11 (6584xx)</a>
+                                </div>
+                            </div>
+                            <!-- Tercera forma de contacto: linkedin-->
+                            <div class="col" id="contactRow1">
+                                <div class="container">
+                                    <svg width="4em" height="4em" viewBox="0 0 16 16"
+                                        class="bi bi-people-fill mx-auto d-block" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                                    </svg>
+                                </div>
+                                <div class="text-center  mt-3">
+                                    <a class="text-light text-decoration-none font-italic"
+                                        href="https://www.linkedin.com/in/julio-cesar-duhalde-734b07217"
+                                        target="_blank"><strong>Linkedin</strong> / Julio Duhalde</a>
+                                </div>
+                            </div>
+                            <!-- Cuarta forma de contacto: github-->
+                            <div class="col" id="contactRow">
+                                <div class="container">
+                                    <svg width="4em" height="4em" viewBox="0 0 16 16"
+                                        class="bi bi-file-code-fill mx-auto d-block" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z" />
+                                    </svg>
+                                </div>
+                                <div class="text-center  mt-3">
+                                    <a class="text-light text-decoration-none font-italic"
+                                        href="https://github.com/jduhal" target="_blank"><strong>Github</strong>
+                                        / jduhal</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!-- "CV-descargar"-->
+                <div class="text-center py-2">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary">Curriculum Vitae (CV)</button>
+                        <a target="_blank" href="https://www.linkedin.com/in/julio-cesar-duhalde-734b07217">
+                            <button type="button" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5" />
+                                </svg>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Footer. Solo se incluye el Copyright-->
+        <footer class="py-5 footer">
+            <div class="container">
+                <p class="m-0 text-center text-white"> <em>© 2022 CopyRight All rights reserved</em> </p>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+            </script>
+    </div>
+
+    <!-- importación de la libreria para los efectos de movimiento-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+<!-- Fin del body-->
 </html>
+<!-- Fin del archivo index.html"-->
+
+
